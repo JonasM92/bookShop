@@ -11,7 +11,7 @@ public class Main {
 
         // Set up
         EntityManager em;
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("RealDolmenPersistenceUnit");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("books");
         em = entityManagerFactory.createEntityManager();
         em.getTransaction().begin();
 
